@@ -61,3 +61,11 @@ p.texto2 {
     font-family: 'Sriracha', cursive;
     color: white;
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 15px solid black;
+    margin: 0px;
+}
