@@ -5,7 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0px;
 }
 
 header {
@@ -68,4 +70,9 @@ footer {
     color: white;
     border: 15px solid black;
     margin: 0px;
+}
+
+footer > a {
+    font-weight: bolder;
+    color: aqua;
 }
