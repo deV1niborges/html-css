@@ -5,35 +5,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     margin: 0px;
+    min-height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
-    min-height: 350px;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Passion One', cursive;
-    font-size: 5em;
-    margin: 0px 0px -80px 0px;
-    padding: 80px;
-    font-size: 6em;
-    font-weight: 900;
-    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 8vw;
 }
 
 p.texto {
     font-family: 'Sriracha', cursive;
-    padding: 20px;
-    font-size: 4em;
+    padding: 30px;
+    font-size: 4vw;
 }
 
 nav {
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 nav > a {
@@ -47,41 +45,55 @@ nav > a:hover {
 }
 
 #principal {
+    padding: 30px;
     background-image: url(imagens/background001.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 4vw;
 }
 
 #principal2 {
+    padding: 30px;
     background-image: url(imagens/background002.jpg); 
-    height: 100vh;
-    background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 4vw;
 }
 
 p.texto1 {
-    padding: 0px;
-    font-size: 3em;
+    padding: 5px;
     font-family: 'Sriracha', cursive;
     color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
 }
 
 p.texto2 {
-    font-size: 3em;
+    padding: 5px;
     font-family: 'Sriracha', cursive;
     color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
 }
 
 footer {
     background-color: black;
     text-align: center;
     color: white;
-    border: 15px solid black;
     margin: 0px;
+    font-weight: 600;
 }
+
+footer > a {
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.349);
+}
+
+footer > a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+    
 
