@@ -2,6 +2,8 @@
 
 /* Configurações Gerais */
 
+/* Se usar contain na imagem de fundo vou ter que colocar a mesma cor da imagem , por que se não a imagem corta e fica com outra cor de fundo que você colocou. */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +13,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(206, 187, 164);
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
 }
