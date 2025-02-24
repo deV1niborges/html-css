@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo de Semântica</title>
     <style>
-        body  {
-            background-color: rgb(19, 19, 231);
-        }
-     </style>
-</head>
-<body>
-    <p>
-        Eu moro na <address>Rua Antonina Pironga,401 - Sopa - MG
-    </address></p>   
-</body>
+      body {
+        background-color: rgb(19, 19, 231);
+      }
+    </style>
+  </head>
+  <body>
+    <address itemscope itemtype="http://schema.org/PostalAddress">
+      <span itemprop="streetAddress">Rua Antonina Pironga, 401</span> -
+      <span itemprop="addressLocality">Sopa</span> -
+      <span itemprop="addressRegion">MG</span>
+    </address>
+  </body>
 </html>
