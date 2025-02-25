@@ -1,63 +1,69 @@
 @charset "UTF-8";
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(70, 150, 150, 0.74);
-    margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(70, 150, 150, 0.74);
+  margin: 0px;
 }
 
 header {
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
 }
 
 nav {
-    background-color: rgba(141, 141, 141, 0.404);
-    width: 190px;
+  background-color: rgb(85, 208, 245);
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 5px;
 }
 
 a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: rgb(12, 131, 131);
-    
+  text-decoration: underline;
+  color: rgb(12, 131, 131);
 }
 
 a:active {
-    color: rgb(46, 3, 238);
+  color: rgb(46, 3, 238);
 }
 
 main {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
 }
 
-article{
-    background-color: rgb(26, 137, 189);
-    padding: 5px;
+section {
+  padding: 10px;
+}
+
+article {
+  background-color: rgb(26, 137, 189);
+  padding: 10px;
 }
 
 aside > p {
-    background-color: rgb(58, 58, 150);
-    color: white;
-    width: 250px;
+  background-color: rgb(58, 58, 150);
+  color: white;
+  width: 250px;
 }
 
 footer {
-    background-color: rgb(20, 20, 20);
-    color: white;
-    text-align: center;
-    padding: 1px;
-    margin: 0px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
 }
 
 footer > p {
-    margin: 4px;
+  margin: 4px;
 }
